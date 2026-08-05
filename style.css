@@ -1,12 +1,26 @@
 body{
-    background-color: rgb(4, 129, 52);
+    background-color: rgb(124, 221, 161);
+    color:#222222;
+    font-family: Arial, sans-serif;
 }
 header{
     background-color:rgb(19, 136, 138) ;
+    color :white;
+    text-align; center;
+    padding: 30px;
  }
  main{
-    background-color: rgb(4, 38, 88);
+    background-color: rgb(124, 158, 209);
  }
  section{
     background-color: rgb(15, 221, 43) ;
+    h1{
+      font-size: 36px;
+    }
+    h2{
+      color:#cc8fbd;
+    }
+    p{
+      font-size: 18px;
+      line-height: 1.6;
  }
