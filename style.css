@@ -92,15 +92,15 @@ footer {
 }
 
 button{
-    background-color: aqua;
-    color:white
+    background-color:rgb(73,214,155) ;
+    color:white;
     border:none;
     padding: 10px 15px;
     border-radius: 8px;
 cursor: pointer;
 }
 button hover{
-    background-color: aqua;
+    background-color:rgbrgb(73, 214, 155) ;
 }
 .curtir{
     display:block;
