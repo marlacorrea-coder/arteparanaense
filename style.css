@@ -91,20 +91,22 @@ footer {
   margin-top: 30px;
 }
 
-button{
-    background-color:rgb(73,214,155) ;
-    color:white;
-    border:none;
-    padding: 10px 15px;
-    border-radius: 8px;
-cursor: pointer;
+button {
+  background-color: rgb(73, 214, 155);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
 }
-button hover{
-    background-color:rgbrgb(73, 214, 155) ;
+
+button hover {
+  background-color: rgbrgb(73, 214, 155);
 }
-.curtir{
-    display:block;
-    width: fit-content;
-    margin: 20px auto;
-    
+
+.curtir {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+
 }
