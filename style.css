@@ -91,12 +91,12 @@ footer {
   margin-top: 30px;
 }
 
-utton{
+button{
     background-color: aqua;
     color:white
     border:none;
-    padding:10px 15px;
-    border-radius:8px;
+    padding: 10px 15px;
+    border-radius: 8px;
 cursor: pointer;
 }
 button hover{
@@ -107,3 +107,4 @@ button hover{
     width: fit-content;
     margin: 20px auto;
     
+}
