@@ -2,13 +2,13 @@
  --cor-fundo:rgb(124, 221, 161);
 --cor-texto:#222222;
 --cor-princial:rgb(19, 136, 138);
---cor-secundaria: white;
---cor-hover:#cc8fbd;
---cor-superficie:
---cor-card:
+--cor-secundaria: ;
+--cor-hover: ;
+--cor-superficie: ;
+--cor-card: ;
 --cor-legenda:
---cor-clara:
---cor-rodape:
+--cor-clara: ;
+--cor-rodape: ;
 }
 body {
   background-color: var(--cor-fundo);
@@ -19,7 +19,7 @@ body {
 
 header {
   background-color: var(--cor-principal);
-  color:var(--cor-secundaria) ;
+  color:var(--cor-clara) ;
   text-align: center;
   padding: 30px;
 }
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  color: var(--cor-hover);
+  color: var(--cor principal);
 }
 
 p {
@@ -42,9 +42,9 @@ nav {
 }
 
 nav a {
-  color: white;
+  color:var(--cor-clara);
   text-decoration: none;
-  background-color: #9b4d83;
+  background-color: var(--cor-secundaria);
   padding: 10px 15px;
   border-radius: 8px;
   margin: 5px;
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #c77dff;
+  background-color: var(--cor-hover);
 }
 
 
@@ -62,7 +62,7 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color:var(--cor-superficie);
   margin: 20px 0;
   padding: 20px;
   border-radius: 12px;
