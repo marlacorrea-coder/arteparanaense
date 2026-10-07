@@ -79,15 +79,15 @@ img {
 figcaption {
   text-align: center;
   font-size: 14px;
-  color: #555555;
+  color: var(--cor-legenda);
   margin-top: 8px;
 }
 
 .card {
-  background-color: #f3d9fa;
+  background-color: var(--cor-card);
   padding: 15px;
   margin: 15px 0;
-  border-left: 6px solid #6b2d5c;
+  border-left: 6px solid var(--cor-principal);
   border-radius: 10px;
 }
 
@@ -96,16 +96,16 @@ figcaption {
 }
 
 footer {
-  background-color: #222222;
-  color: white;
+  background-color: var(--cor-rodape);
+  color: var(--cor-clara);
   text-align: center;
   padding: 20px;
   margin-top: 30px;
 }
 
 button {
-  background-color: rgb(73, 214, 155);
-  color: white;
+  background-color:var(--cor-princial) ;
+  color: var(--cor-clara);
   border: none;
   padding: 10px 15px;
   border-radius: 8px;
@@ -113,7 +113,7 @@ button {
 }
 
 button hover {
-  background-color: rgbrgb(73, 214, 155);
+  background-color: var(--cor-hover);
 }
 
 .curtir {
