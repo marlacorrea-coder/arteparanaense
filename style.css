@@ -1,21 +1,25 @@
-:root
+:root{ 
  --cor-fundo:rgb(124, 221, 161);
--- cor-texto:
--- cor-princial
---cor-secundaria:
---cor-hover:
---cor-
-:-ms-fullscreen
+--cor-texto:#222222;
+--cor-princial:rgb(19, 136, 138);
+--cor-secundaria: white;
+--cor-hover:#cc8fbd;
+--cor-superficie:
+--cor-card:
+--cor-legenda:
+--cor-clara:
+--cor-rodape:
+}
 body {
-  background-color: rgb(124, 221, 161);
-  color: #222222;
+  background-color: var(--cor-fundo);
+  color: var (--cor-texto);
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
 header {
-  background-color: rgb(19, 136, 138);
-  color: white;
+  background-color: var(--cor-principal);
+  color:var(--cor-secundaria) ;
   text-align: center;
   padding: 30px;
 }
@@ -25,7 +29,7 @@ h1 {
 }
 
 h2 {
-  color: #cc8fbd;
+  color: var(--cor-hover);
 }
 
 p {
