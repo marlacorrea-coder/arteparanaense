@@ -1,14 +1,14 @@
 :root{ 
- --cor-fundo:rgb(124, 221, 161);
+ --cor-fundo:rgb(127, 156, 201);
 --cor-texto:#222222;
 --cor-princial:rgb(19, 136, 138);
---cor-secundaria: ;
---cor-hover: ;
---cor-superficie: ;
---cor-card: ;
---cor-legenda:
---cor-clara: ;
---cor-rodape: ;
+--cor-secundaria:rgb(21, 146, 140) ;
+--cor-hover: rgb(132, 219, 151);
+--cor-superficie:rgb(97, 137, 224) ;
+--cor-card:rgb(39, 146, 165) ;
+--cor-legenda:rgb(112, 153, 192);
+--cor-clara:rgb(63, 156, 110) ;
+--cor-rodape: rgb(94, 114, 179);
 }
 tema-escuro{
     --cor-fundo:#121212;
